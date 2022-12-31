@@ -18,7 +18,7 @@ export default function Home() {
       </div>;
     } else {
       return (
-        <div className=" place-self-center fixed top-1/4">
+        <div className=" place-self-center fixed top-[14%]">
           <h2 className="xl:text-sm text-xs">Till New Year:</h2>
           <span className=" flex  justify-center gap-1 font-bold text-xs flex-row">
             <div className="flex-col p-2 bg-[#222327] rounded-2xl">
@@ -44,15 +44,15 @@ export default function Home() {
   };
   return (
     <>
-     <main className=" text-white content-center justify-center h-screen text-xl">
+     <main className=" text-white -pt-20 pb-10 content-center justify-center h-screen text-xl">
      <Snowfall
   color="white"
   snowflakeCount={200}
 />
-        <div className=" w-full -pt-5  flex-row h-full  flex-wrap content-center  flex  justify-center"> 
+        <div className=" w-full  flex-row h-full  flex-wrap content-center  flex  justify-center"> 
         <Typewriter
   options={{
-    strings: ['🎄С Новым годом!', '🦌Жаңа Жылыңызбен!' ,"🎅Happy New Year!", "🎁新年おめでとうございます！"],
+    strings: ['⭐С Новым годом!', '⭐Жаңа Жылыңызбен!' ,"⭐Happy New Year!", "⭐新年おめでとうございます！"],
     autoStart: true,
     delay: 100,
     loop: true,
