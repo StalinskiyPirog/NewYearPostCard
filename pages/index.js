@@ -50,18 +50,18 @@ export default function Home() {
   snowflakeCount={200}
 />
         <div className=" w-full  flex-row h-full  flex-wrap content-center  flex  justify-center"> 
+        <div className="z-[2]">
         <Typewriter
   options={{
-    strings: ['⭐С Новым годом!', '⭐Жаңа Жылыңызбен!' ,"⭐Happy New Year!", "⭐新年おめでとうございます！"],
+    strings: ['⭐С Новым годом!⭐', '⭐Жаңа Жылыңызбен!⭐' ,"⭐Happy New Year!⭐", "⭐新年おめでとうございます！⭐"],
     autoStart: true,
     delay: 100,
     loop: true,
-    cursor: "⭐",
   }}
-/>
+/></div>
 <Countdown date={"2023-01-01T00:00:00"}
                 renderer={renderer} />
-<Image src="/tree.gif" alt="tree" className={'fixed  place-self-end align-text-bottom'} width={130} height={130}/>
+<Image src="/tree.gif" alt="tree" className={'fixed  bottom-[15%] z-[1] '} width={130} height={130}/>
 </div>
      </main>
     </>
